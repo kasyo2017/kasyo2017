@@ -1,0 +1,223 @@
+/*----------block-list----------*/
+/*
+  header
+  main-visual
+  concept
+  event
+  item
+  contact
+  facebook
+  footer
+*/
+
+
+/*----------import
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);----------*/
+
+
+/*----------common----------*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #D7C4BB;
+}
+.container {
+  width: 0 auto;
+  margin: 0 auto;
+}
+.common-section-title {
+  font-size: 50px;
+  font-family: 'JYuMincho', sans-serif;
+  line-height: 1;
+  color: #fff;
+  /*--border-bottom: 10px solid #fff;--*/
+}
+.common-sectin-text {
+   /*--letter-spacing: 2px;--*/
+  font-size: 18px;
+  font-family: 'Noto Sans Japanese';
+  font-weight: 200;
+   /*--line-height: 2;--*/
+  color: #333;
+}
+
+
+/*----------navgation----------*/
+.header-navgation {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background: #261E47;
+}
+.header-navgation-list {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 auto;
+}
+.header-navgation-list-item {
+  list-style-type: none;
+}
+.header-navgation-list-item > a {
+  display: block;
+  padding: 20px 0;
+  text-decoration: none;
+  color: #fff;
+}
+.header-navgation-list-item > a:hover {
+  text-decoration: underline;
+  transition: .3s;
+}
+
+
+
+/*----------main-visual----------*/
+.main-visual {
+  margin-top:64px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.main-visual-img {
+  display: block;
+  width: 100%;
+}
+.main-visual-title {
+  position: absolute;
+  top: 35%;
+  left: 55%;
+  font-family: 'Rammetto One', cursive;
+  font-size: 80px;
+  color: #333;
+}
+
+
+/*----------concept-水引---------*/
+.concept {
+  margin: auto;
+  position: relative; 
+}
+.concept-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  background-color: #8E354A;
+}
+.concept-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  background: #fff;
+}
+.concept-bottom-text {
+  text-align: center;
+}
+
+/*----------event-イベント---------*/
+.event {
+  margin: auto;
+  position: relative; 
+}
+.event-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  background-color: #949495;
+}
+.event-bottom {
+  /*--display: flex;--*/
+  align-items: auto;
+  justify-content: auto;
+  margin: 50px;
+  padding: 25px 50px 50px;
+  height: auto;
+  background: #fff;
+}
+.event-bottom-text {
+  text-align: center;
+}
+
+hr {
+  border-width: 2px 0px 0px 0px; /* 太さ */
+  border-style: solid; /* 線種 */
+  border-color: red;   /* 線色 */
+  }
+
+/*----------item---商品---------*/
+.item {
+  margin: auto;
+  position: relative; 
+}
+.item-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  background-color: #261E47;
+}
+.item-bottom{
+  margin:25px;
+}
+
+figure.item-box {
+  float: left;
+  padding-right: 20px;
+}
+.item-page{
+  clear: both;
+  font-size:40px;
+  text-align: center;
+}
+
+/*----------contact-お問い合わせ---------*/
+.contact {
+  margin: auto;
+  position: relative; 
+}
+.contact-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  background-color: #8E354A;
+}
+.contact-bottom {
+    background: #FFF;
+    margin: 50px;
+    padding: 25px 50px 50px;
+    height: auto;
+    overflow: hidden;
+}
+.mail_image {
+    float: left;
+    margin-right: 10px;
+}
+.contact-bottom-text{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+
+/*----------footer----------*/
+.page-footer {
+  clear: both;
+  height: 50px;
+  background: #011627;
+}
+.page-footer-copy {
+  letter-spacing: 1px;
+  text-align: center;
+  padding-top: 15px;
+  color: #fff;
+}
